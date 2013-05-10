@@ -1,29 +1,31 @@
-Thanks everyone for coming, and I'm the last thesis presentation of
-the day, so something. The title of my thesis is "something something
-something something something." Up front I would just like to thank my
+Thanks everyone for coming and for staying for the last presentation of
+the day. Up front I would just like to thank my
 committee members for their helpful comments through the course of
-putting this together.
+putting this together. My formal title is "Medication Adherence: how should we
+measure it, and can we detect it early?" I will focus mainly on the
+early detection.
 
-I want to give you background about medication adherence. The first
-thing that's important to do is give you the definition that I
-subscribe to. That's going to affect how we think about some things.
-The definition is "blah blah blah blah blah." Obviously that's kind of
-a broad definition, but the particular reasons that we might be
-interested in it are a couple of things. Number one, at least in
-clinical trials it's been associated with higher mortality, comparing
-the people who do adhere, to the people who don't adhere. Number two,
-it's also known that good adherence is associated with better
-outcomes, so lesser morbidity, lesser complications of disease, and so
-forth. In pragmatic situations, so not in a clinical trial: poor
-adherence is associated with more hospitalization. There's a pretty
-good body of literature that shows that, and a lot of the studies that
-look at the costs tie a lot of the increased costs to being in the
-hospital more. We think that you don't take the medicine, you get some
-type of complication that's maybe completely reversible, but you get
-an exacerbation of your chronic disease, end up in the hospital, and
-then you get discharged. That's an avoidable, significant cost for you
-and for the system, and in indirect costs: the things you could be
-doing while you're not in the hospital.
+But first, some background about medication adherence. I'll use this
+definition: "The extent to which patients take medications as
+prescribed by their health care providers." Why would you be
+interested in such a thing? Who says adherence is good in the first
+place? Well, because first of all, poor adherence has been associated
+with increased mortality (Horwitz). Second, poor adherence is
+associated with disease progression in clinical trials, and with
+increased disease-related hospitalizations in real-world populations.
+Between 30 and 70 % of adverse-drug-event-related hospitalizations are
+attributable to poor adherence. 
+
+### ** left off here.
+
+There's a pretty good body of literature that shows that, and a lot of
+the studies that look at the costs tie a lot of the increased costs to
+being in the hospital more. We think that you don't take the medicine,
+you get some type of complication that's maybe completely reversible,
+but you get an exacerbation of your chronic disease, end up in the
+hospital, and then you get discharged. That's an avoidable,
+significant cost for you and for the system, and in indirect costs:
+the things you could be doing while you're not in the hospital.
 
 Finally, one of the things that informs our choice of how we
 operationalize this definition is what CMS did not too long ago, which
@@ -104,7 +106,7 @@ where it looks at early monitoring and predicts later adherence. That
 worked well, but [**] didn't compare to anything else, and/or there
 were some funny problems which we can't go into.
 
-[**13 minutes]
+[**13 minutes] 8 LPM
 
 stop for questions.
 
@@ -128,7 +130,7 @@ We split these 200,000 people into 140,000 training and 70,000 test.
 It's a random split. This is logistic regression. I did try other
 nonlinear methods but it didn't make a big difference [**omit?]
 
-[**17 min]
+[**17 min] 7.7 LPM
 
 Some Baseline characteristics of the included population. The median
 age is 58. 58 percent men. Most are on simvastatin. After that is
@@ -165,7 +167,7 @@ monitor their adherence and see how they're doing. So we did better
 than the other study. [**should I say I'm not trying to make a straw
 man?]
 
-[23 min]
+[23 min] 7.3 LPM
 
 Here are the odds ratios of the multivariable model. So things that
 are worse for your adherence are on the right side of this graph. The
@@ -230,7 +232,7 @@ into a pretty interesting problem.
 
 [END!!]
 
-[32.5 MINUTES]
+[32.5 MINUTES] 7.16 LPM
 
 [bring bottle of water!! poss kleenex.]
 
