@@ -1,0 +1,38 @@
+Definition
+Significance (effects)
+  dollars
+  hospitalization
+  prevalence
+  paid more
+Magda model
+Measures
+  one figure. not a lot of time.
+Calculation methods
+Interventions
+
+Prediction Methods
+  washout period
+  other exclusion only 90d
+  train/val
+  dependent var - same as CMS
+  independent vars: contin PDC
+  
+Results
+  n=..., baseline
+  there are people we don't know result
+  bivariate
+  roc
+  sensitivity analy
+  sn sp
+  
+Discussion
+  comparison mod
+  editorial
+  my interp: claims tough a~ ini.
+    claims not useless
+  next step - outcome
+  more classes
+  drug n+1
+  Lim
+	fills are not adherence
+	threshold

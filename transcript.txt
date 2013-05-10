@@ -1,0 +1,267 @@
+Thanks everyone for coming, and I'm the last thesis presentation of
+the day, so something. The title of my thesis is "something something
+something something something." Up front I would just like to thank my
+committee members for their helpful comments through the course of
+putting this together.
+
+I want to give you background about medication adherence. The first
+thing that's important to do is give you the definition that I
+subscribe to. That's going to affect how we think about some things.
+The definition is "blah blah blah blah blah." Obviously that's kind of
+a broad definition, but the particular reasons that we might be
+interested in it are a couple of things. Number one, at least in
+clinical trials it's been associated with higher mortality, comparing
+the people who do adhere, to the people who don't adhere. Number two,
+it's also known that good adherence is associated with better
+outcomes, so lesser morbidity, lesser complications of disease, and so
+forth. In pragmatic situations, so not in a clinical trial: poor
+adherence is associated with more hospitalization. There's a pretty
+good body of literature that shows that, and a lot of the studies that
+look at the costs tie a lot of the increased costs to being in the
+hospital more. We think that you don't take the medicine, you get some
+type of complication that's maybe completely reversible, but you get
+an exacerbation of your chronic disease, end up in the hospital, and
+then you get discharged. That's an avoidable, significant cost for you
+and for the system, and in indirect costs: the things you could be
+doing while you're not in the hospital.
+
+Finally, one of the things that informs our choice of how we
+operationalize this definition is what CMS did not too long ago, which
+is they tied adherence to 3 particular classes of medications to
+payment, so it's part of a bigger program of theirs, where they give
+bonus payments to Medicare Advantage plans, which is a particular kind
+of Medicare program. That's not based entirely on adherence. It's
+based on 15-20 different quality measures, but three of theme are
+specifically adherence, and their based on prescription fills. So even
+if you don't buy any of the other stuff about your diseases getting
+worse or costs, if you're an insurance plan manager, you're going to
+make more money if your Medicare members are more adherent to a couple
+classes of drugs. One is the statins.
+
+This is a picture [**make it look better] of one of the studies that
+tries to estimate the nationwide annual cost of nonadherence. They
+came up with 289 billion. That's not all nonadherence. It's
+interesting some of the references about adherence quote this and
+interpret it as it's all adherence cost, but it's not really. It's
+sort of adverse drug events. It's probably on the order of 10 billion
+or 100 billion.
+
+We know nonadherence is bad. How prevalent is it? It's pretty
+prevalent. This shows that people who just initiated statins and how
+many are still adherent as a funciton of time. It shows that by 6
+months, half of the people have stopped taking it. It's a little
+better if it's for secondary prevention (if you've actually had a
+heart attack). Then you're likely to still take it. More likely than
+the people who were just told you have high cholesterol. But it's
+still at 6 to 12 months around 50-60%, which is not something good. So
+it's a common issue.
+
+This shows 5 of the different ways that you can measure adherence. I
+talked a little about Medicare's interest in prescription fills, but
+there are other ways that. For example, in a trial, you might come
+back at the end of every month and have each patient come back and
+have the pills counted, subtract, and see how many the patient took.
+They might have the patient keep a diary or retrospectively think
+back--globally or quantitatively--how often did you miss, or how well
+did you do? Some drugs you can clinically measure a level, or you can
+have a specialized research assay that measures levels. Finally you
+can have [**picture] a device that checks each time you open a bottle.
+Each has its own pros, cons, and ways they can give you inaccurate
+data. Don't have a lot of time, but they point is there's none that's
+considered the gold standard. We use prescription fills. The width
+tells you how many studies I could find that correlate one measure to
+another. I would argue that fills are well studied. They have good
+correlation with this; they've been well studied; CMS is using them
+for practical purposes. Just know that there are several ways.
+
+Finally, know that there are interventions that improve adherence.
+That's not the goal of my thesis. Some interventions are:
+[**examples]. You train a pharmacist. He has a geriatric guy. He has
+some other experts. He becomes the uber pharmacist, and they have this
+multipage protocol whenever he thinks he's not adherent. It says why
+do you think he's not, and it's very tailored. A lot of interventions
+are either complex, human-intensive, or multidisciplinary. You have a
+big team of people, and any one can interact with the patient or plan
+member depending on what you think's going on. There's one review
+article that says "blah blah blah**". I think when they say that, they
+forget about one thing that's simple to do, which is reduce copayment.
+There was a trial of that just 18 months ago in NEJM, and they found
+it moved adherence a little bit, but it didn't do anything significant
+to outcomes. That was the first biggest trial of its kind looking at
+that type of intervention. It's worth pointing out that you can do
+that to a lot of people. There's no logistic problem with doing that
+for 10 vs 100 vs 1000. It's not the same as the pharmacist contacting
+a thousand people. It's money, but it's not more human labor. The
+point is, we're trying to do this prediction to target those complex
+interventions to the poeple at highest risk for poor adherence. It
+could also apply to the copayment interventions, but maybe not in the
+same way.
+
+now that we know why, here's some other guy's study. He studied a
+bunch of things that are in claims. It didn't work so well. Here's
+this other study which Ken did. That had just one simple thing in it,
+where it looks at early monitoring and predicts later adherence. That
+worked well, but [**] didn't compare to anything else, and/or there
+were some funny problems which we can't go into.
+
+[**13 minutes]
+
+stop for questions.
+
+Now I'm going to talk about the main part of the research we did.
+[**say that it's about claims]. The dependent variable we defined is
+exactly the same way CMS did. It says is adherence greater or less
+than this numerical value. It's a binary thing. Then we have a bunch
+of independent variables. Sometimes I'll call them predictors or
+features. The major predictor we're interested in is adherence for the
+first 90 days. That's going into the model as a continuous variable.
+The other ones [**probably list them, group of them, etc]. We worked
+hard to separate them so we're not using anything beyond the initial 90
+days as a predictor or exclusion [**maybe reword]. We excluded anyone
+who we don't think is really starting the statin brand new because of
+those curves I showed you. They behave differently--at the beginning
+there's a big drop. If we get someone who's been on it and monitor
+them, they're more likely to keep adhering. It's a different
+population because a lot quit early on. That was the main exclusion.
+There are some others: people with weird data. [**put figure/table].
+We split these 200,000 people into 140,000 training and 70,000 test.
+It's a random split. This is logistic regression. I did try other
+nonlinear methods but it didn't make a big difference [**omit?]
+
+[**17 min]
+
+Some Baseline characteristics of the included population. The median
+age is 58. 58 percent men. Most are on simvastatin. After that is
+atorvastatin and rosuvastatin. The otehr ones are minor. Median
+adherence for 1-90 is kind of good. The 91-365 is not so good. For the
+whole year it's middle of the road. [**say prevalence of <80]. They're
+not on a whole lot--just 1-2 other meds. Long tail. There's only 2%
+with MI in the last 30 days. So it's mostly a primary prevention
+population. [** one or 2 other baseline]
+
+When we looked at bivariate pairwise associations, the big one that
+stands out is the early monitoring period. The odds ratio is 18. The
+next biggest one is 1.8. The interpretation is if you're the people
+with early adherence down by 0.5, then your odds of low adherence in
+the later time frame is multiplied by 18. So it's in the intuitive
+direction: you do worse at the beginning, and you do worse at the end.
+
+This is the ROC curve for the multivariable model. 
+
+This other guy in his editorial says you can't do anything from claims
+data, and there's probably no signal in there. I would agree with what
+he says--really what he says is you can't do it from demographic and
+comorbidity. I would agree with that but I wouldn't say you can't do
+it from claims data. If you use this early monitoring approach. This
+early monitoring period is acting as a proxy for a lot of these
+unmeasured things that we can't get from claims, like whos working two
+jobs or whose work schedule is weird & they have to get up at
+different hours & no standard routine. The personal characteristics
+are probably a big influence on adherence, is what we think from these
+smaller studies where they actually interview and talk to people. None
+of that shows up [directly] in insurance claims, but that doesn't mean
+that you have no idea about these people. You can wait for 90 days and
+monitor their adherence and see how they're doing. So we did better
+than the other study. [**should I say I'm not trying to make a straw
+man?]
+
+[23 min]
+
+Here are the odds ratios of the multivariable model. So things that
+are worse for your adherence are on the right side of this graph. The
+worst thing is if you have low adherence in the early monitoring
+period. This is a log scale. This odds ratio is 20. The next worst one
+is 2. That was a drug class one. There are hypotheses for why the drug
+class might be worse. [generic versus, but we control for that. Less
+potent.] The point of this is not the other covariates. It is
+interesting. The interpretation of this one is, age goes up 2 SD, and
+the [odds of] adherence gets better. But it's like odds 0.75 or
+something. So especially compared to this one, it's not great.
+
+[steiner makes argument that 2 is still not good enough]
+
+This is the really interesting part. This 90 day period was somewhat
+arbitrary. We thought 90 days was long enough [from 1st principles].
+It worked, but maybe we can make it shorter, or maybe longer gets
+better performance. The top curve is people who get 30 day fills of
+medications. The Y axis is the AUC, so it's basically how good does
+the model predict at whatever time point. If you have only 10 days or
+20 of monitoring data, you can't tell anything more than what you
+could with 0 days. Interestingly this is pretty close to the AUCs that
+the other study was getting. If you wait til 31 you get a big
+increase, and if you wait til 40 you get a further increase. You then
+start to level off and increase more slowly, for as long as you're
+willing to wait. If you wanted to wait 9 months and then predict the
+final 3 you could. The point is a tradeoff between early prediction
+and striking while the iron is hot; and waiting longer to get a better
+fix on their position and what they may do for the rest of the year.
+You see a similar pattern for those who get the 90 day fills. They get
+a big increase between 90 and 100 days. The timing of the first refill
+plays a big part in the discriminatory power of this model.
+
+Compared to other model. Adding early monitoring strategy helps the
+power of the model a lot. Editorial says can't predict it from what
+people look like or from just drug cost or from what's on the problem
+list. I say claims data are limited only if you're trying to predict
+before they even start the drug. [only if you disregard the adherence
+data that's already there]
+
+Limitations. I showed you with the 5 nodes that there's other ways to
+measure adherence apart from fills. The finest resolution I can get is
+this 30-day block. I know they filled 30 pills, but then they don't
+show up on radar--I don't know what they're doing day to day. There's
+other measures. This 80% is for the most part arbitrary. There's maybe
+one study that tried to look at this, but it really needs to be
+further established how much you need to take your medicines in order
+to get clinical benefit. At least CMS has tied some reimbursement to 
+
+[end tape]
+
+a measure. That's what we're using in our study as well. We don't have
+outcome data [that we use]. We're just looking at statins. Both of
+these are opportunities for future: incorporating outcomes, i.e.
+hospitalization, or even a surrogate like labs; and expanding to other
+drug classes. Finally, we're looking just at statin adherence predicts
+statin adherence. What does blood pressure medicine adherence have to
+say about statin adherence, or vice versa? Or you can start to come up
+with a whole bunch of things. Some chronic medications might have
+bearing on others; some might not; or in certain situations. It turns
+into a pretty interesting problem.
+
+[END!!]
+
+[32.5 MINUTES]
+
+[bring bottle of water!! poss kleenex.]
+
+[**incorporate]
+
+Q. What would they use it for?
+
+A. Two things. One is insurance plan manager. If people fill these
+meds on time, Medicare plan might increase star rating, and then get
+an increased bonus payment. Bonus might change. Two is if you're a
+clinic or an ACO, you want your people to have fewer complications.
+You want to get your hands on fill data, so when someone starts on a
+new med you can watch the first refill point, and if they don't within
+10 days, you'll want to intervene. There are lots of interventions
+and this study doesn't say which to use: letter, reduce copay, reduce
+polypharmacy, phone them, mobile electronic reminder. Use what's at
+your disposal, I say, but this would alert you that they have a risk
+of a problem.
+
+Q. What about auto refill.
+
+A. If you know of a pharmacy that will give me data on that, we could
+write a very important paper that no one's written about. I don't have
+that data with my claims. I also don't have prescriptions. If it was
+prescribed and not filled or prescribed and got at WalMart $4 list,
+then it's not a claim on their prescription drug plan.
+
+It's corrupting your data more and more as time goes by but we don't
+know to what extent. If we wrote this paper it would Probably spoil
+some other research that people are working on. 
+
+[acknowl Aetna?]
+
+** there are people for whom we don't know how to score them.
