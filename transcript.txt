@@ -9,36 +9,32 @@ But first, some background about medication adherence. I'll use this
 definition: "The extent to which patients take medications as
 prescribed by their health care providers." Why would you be
 interested in such a thing? Who says adherence is good in the first
-place? Well, because first of all, poor adherence has been associated
-with increased mortality (Horwitz). Second, poor adherence is
-associated with disease progression in clinical trials, and with
-increased disease-related hospitalizations in real-world populations.
-Between 30 and 70 % of adverse-drug-event-related hospitalizations are
-attributable to poor adherence. 
+place?
 
-### ** left off here.
+Well, because first of all, poor adherence has been associated with
+increased mortality (Horwitz). [**mention healthy adherer] Second,
+poor adherence is associated with disease progression in clinical
+trials, and with increased disease-related hospitalizations in
+real-world populations. Between 30 and 70 % of adverse drug
+event-related hospitalizations are attributable to poor adherence.
+Furthermore, literature shows that a lot of the increased costs are
+due to hospitalizations. So we think that you don't take the medicine,
+you get an exacerbation or complication of chronic disease, and you
+have a stay in the hospital. It might not even be a bad exacerbation,
+but that results in increased costs for you and for the system, and in
+indirect costs, such as the things you could be doing while you're not
+in the hospital.
 
-There's a pretty good body of literature that shows that, and a lot of
-the studies that look at the costs tie a lot of the increased costs to
-being in the hospital more. We think that you don't take the medicine,
-you get some type of complication that's maybe completely reversible,
-but you get an exacerbation of your chronic disease, end up in the
-hospital, and then you get discharged. That's an avoidable,
-significant cost for you and for the system, and in indirect costs:
-the things you could be doing while you're not in the hospital.
+Finally, not too long ago, CMS tied adherence to 3 particular classes
+of medications to payment, and one of those classes is the statins.
+That informed how we operationalized the definition of adherence.
+Payment is actually based on 15-20 different quality measures, but
+three of theme are specifically adherence, and they're based on
+prescription fills. So even if you don't believe anything about worse
+outcomes or costs, if you're a Medicare plan manager, believe that
+you're going to make more money if your members are more adherent.
 
-Finally, one of the things that informs our choice of how we
-operationalize this definition is what CMS did not too long ago, which
-is they tied adherence to 3 particular classes of medications to
-payment, so it's part of a bigger program of theirs, where they give
-bonus payments to Medicare Advantage plans, which is a particular kind
-of Medicare program. That's not based entirely on adherence. It's
-based on 15-20 different quality measures, but three of theme are
-specifically adherence, and their based on prescription fills. So even
-if you don't buy any of the other stuff about your diseases getting
-worse or costs, if you're an insurance plan manager, you're going to
-make more money if your Medicare members are more adherent to a couple
-classes of drugs. One is the statins.
+~~~~
 
 This is a picture [**make it look better] of one of the studies that
 tries to estimate the nationwide annual cost of nonadherence. They
