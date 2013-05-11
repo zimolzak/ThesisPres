@@ -25,6 +25,12 @@ but that results in increased costs for you and for the system, and in
 indirect costs, such as the things you could be doing while you're not
 in the hospital.
 
+A 2009 study from the NEHI estimated 289 billion in what they call
+drug-related morbidity in the US. That covers how medications are used
+in the ambulatory setting only and it includes adherence problems, as
+well as problems with prescribing, administration, and diagnosis,
+which result in adverse drug events, interactions, etc.
+
 Finally, not too long ago, CMS tied adherence to 3 particular classes
 of medications to payment, and one of those classes is the statins.
 That informed how we operationalized the definition of adherence.
@@ -34,18 +40,12 @@ prescription fills. So even if you don't believe anything about worse
 outcomes or costs, if you're a Medicare plan manager, believe that
 you're going to make more money if your members are more adherent.
 
+We know nonadherence is bad. How prevalent is it? It's pretty
+prevalent. These are two studies
+
 ~~~~
 
-This is a picture [**make it look better] of one of the studies that
-tries to estimate the nationwide annual cost of nonadherence. They
-came up with 289 billion. That's not all nonadherence. It's
-interesting some of the references about adherence quote this and
-interpret it as it's all adherence cost, but it's not really. It's
-sort of adverse drug events. It's probably on the order of 10 billion
-or 100 billion.
-
-We know nonadherence is bad. How prevalent is it? It's pretty
-prevalent. This shows that people who just initiated statins and how
+shows that people who just initiated statins and how
 many are still adherent as a funciton of time. It shows that by 6
 months, half of the people have stopped taking it. It's a little
 better if it's for secondary prevention (if you've actually had a
