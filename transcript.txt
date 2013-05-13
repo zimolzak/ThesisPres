@@ -5,6 +5,11 @@ together. My formal title is "Medication Adherence: how should we
 measure it, and can we detect it early?" I will focus mainly on the
 early detection.
 
+** going to tell you some nuances that I learned about adherence, and
+   about my research.
+
+** go thru and find all asterisks.
+
 DEFINITION
 
 But first, some background about medication adherence. I'll use this
@@ -94,7 +99,7 @@ intervened over a 9 month period, with effects that dissipated in 3
 months (Murray et al., 2007). One systematic review concluded that
 "many of the adherence interventions for long-term medications were
 exceedingly complex and labor-intensive. It is therefore difficult to
-see how they could be carried out in nonresearch settings" (Haynes et
+see how they could be carried out in non-research settings" (Haynes et
 al., 2008). I think when they say that, they forget about one thing
 that's simple to do, which is reduce copayment. There was a trial of
 that a year and a half ago in the New England Journal, and they found
@@ -130,10 +135,10 @@ METHODS
 Now I'm going to discuss the original research that resulted in the
 main findings of my thesis. The goal was to build an early detection
 model, but one that compares the early detection strategy to the
-traditional strategty of using patient and drug data at the time of
+traditional strategy of using patient and drug data at the time of
 prescribing to predict drug adherence. Our data source was
 prescription claims from Aetna, on about 600,000 commercial members,
-who met critieria for hyperlipidemia.
+who met criteria for hyperlipidemia.
 
 The major predictor we're interested in is adherence for the first 90
 days. That's going into the model as a continuous variable. Sometimes
@@ -222,7 +227,17 @@ get the 90 day fills. They get a big increase in model performance
 between 90 and 100 days. In summary, the timing of the first refill
 plays a big part in the discriminatory power of this model.
 
+[**table from poster]
+
 DISCUSSION
+
+Who would use this? One is insurance plan manager. If people fill
+these meds on time, Medicare plan might increase star rating, and then
+get an increased bonus payment. Two is if you're a clinic or an ACO,
+you want your people to have fewer complications. You want to get your
+hands on fill data, so when someone starts on a new med you can watch
+the first refill point, and if they don't within 10 days, you'll want
+to intervene.
 
 Now I want to discuss opportunities for future research. At the
 beginning, I showed you that there's other ways to measure adherence
@@ -230,48 +245,39 @@ apart from fills. Prescription claims are not the same as
 quote-unquote true adherence. With a claim, I know they filled 30
 pills, but then I don't know what they're doing day to day, until the
 next claim comes along. There's no gold standard, and incorporating
-one of these other measures would add a lot of information. Secondly,
-it is for the most part arbitrary to define good adherence as
-Proportion of Days Covered equal or greater to 80%.
+one of these other measures would add a lot of information.
 
-~~~~
+Secondly, it is for the most part arbitrary to define good adherence
+as Proportion of Days Covered equal or greater to 80%. There's
+virtually no research I know of that uses clinical outcomes to
+determine where to draw the line on how much you need to take your
+medicines. Even those secondary analyses of clinical trial data that I
+told you about in the beginning: even they said, let's compare the
+over-80% to the under-80% group. At least CMS has artificially made
+80% worthwhile by tying some reimbursement it. That's what we're using
+in our study, but we haven't yet used any outcome data. There is an
+opportunity to incorporate outcomes, such as hospitalization, or even a
+surrogate like labs.
 
- There's virtually
-no research that uses clinical outcomes to determine how much you need
-to take your medicines.  in order to get
-clinical benefit. At least CMS has tied some reimbursement to....
+Third, we're just looking at statins. There is an opportunity to
+expand to other drug classes.
 
-....a measure. That's what we're using in our study as well. We don't have
-outcome data [that we use]. We're just looking at statins. Both of
-these are opportunities for future: incorporating outcomes, i.e.
-hospitalization, or even a surrogate like labs; and expanding to other
-drug classes. Finally, we're looking just at statin adherence predicts
-statin adherence. What does blood pressure medicine adherence have to
-say about statin adherence, or vice versa? Or you can start to come up
-with a whole bunch of things. Some chronic medications might have
-bearing on others; some might not; or in certain situations. It turns
-into a pretty interesting problem.
+Fourth, we're looking just at statin adherence predicts statin
+adherence. What does blood pressure medicine adherence have to say
+about statin adherence, or vice versa? You can come up with many of
+these possible relationships. Some chronic medications might have
+bearing on others; some might not; or only in certain situations. It
+turns into a pretty interesting problem.
 
-To sum up, demographic and payment are not good. claims are limited
-only if you're trying to predict before they even start the drug.
-[only if you disregard the adherence data that's already there]
+To sum up, demographic and payment characteristics are not good
+predictors of adherence. But those are not the extent of the
+information encompassed by claims data. there is valuable signal to be
+found in claims data, and people's prior adherence history is one such
+signal that can predict future adherence.
 
 [original: 32.5m, 7.16Lpm, 73wpm.]
-[target  : 1460-1600w]
-
-Who would use this? One is insurance plan manager. If people fill
-these meds on time, Medicare plan might increase star rating, and then
-get an increased bonus payment. Bonus might change. Two is if you're a
-clinic or an ACO, you want your people to have fewer complications.
-You want to get your hands on fill data, so when someone starts on a
-new med you can watch the first refill point, and if they don't within
-10 days, you'll want to intervene. There are lots of interventions and
-this study doesn't say which to use: letter, reduce copay, reduce
-polypharmacy, phone them, mobile electronic reminder. Use what's at
-your disposal, I say, but this would alert you that they have a risk
-of a problem.
-
-** there are people for whom we don't know how to score them.
+[current : 2360w, 32.3m]
+[target  : 1460-1600w, 20m]
 
 [bring bottle of water!! poss kleenex.]
 
@@ -280,4 +286,5 @@ of a problem.
 
 
  LocalWords:  Horwitz NEHI operationalized uber multipage think's LPM meds AUC
- LocalWords:  steiner AUCs tradeoff kleenex WalMart Aetna
+ LocalWords:  steiner AUCs tradeoff kleenex WalMart Aetna thru hyperlipidemia
+ LocalWords:  Lpm adherers
