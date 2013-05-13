@@ -1,2 +1,5 @@
 *.pptx
+*.aux
+*.log
+*.pdf
 *~
