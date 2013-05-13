@@ -1,15 +1,19 @@
-Thanks everyone for coming and for staying for the last presentation of
-the day. Up front I would just like to thank my
-committee members for their helpful comments through the course of
-putting this together. My formal title is "Medication Adherence: how should we
+Thanks everyone for coming and for staying for the last presentation
+of the day. Up front I would just like to thank my committee members
+for their helpful comments through the course of putting this
+together. My formal title is "Medication Adherence: how should we
 measure it, and can we detect it early?" I will focus mainly on the
 early detection.
+
+DEFINITION
 
 But first, some background about medication adherence. I'll use this
 definition: "The extent to which patients take medications as
 prescribed by their health care providers." Why would you be
 interested in such a thing? Who says adherence is good in the first
 place?
+
+OUTCOMES
 
 Well, because first of all, poor adherence has been associated with
 increased mortality (Horwitz). [**mention healthy adherer] Second,
@@ -25,11 +29,15 @@ but that results in increased costs for you and for the system, and in
 indirect costs, such as the things you could be doing while you're not
 in the hospital.
 
+COST
+
 A 2009 study from the NEHI estimated 289 billion in what they call
 drug-related morbidity in the US. That covers how medications are used
 in the ambulatory setting only and it includes adherence problems, as
 well as problems with prescribing, administration, and diagnosis,
 which result in adverse drug events, interactions, etc.
+
+BONUS
 
 Finally, not too long ago, CMS tied adherence to 3 particular classes
 of medications to payment, and one of those classes is the statins.
@@ -40,71 +48,83 @@ prescription fills. So even if you don't believe anything about worse
 outcomes or costs, if you're a Medicare plan manager, believe that
 you're going to make more money if your members are more adherent.
 
+PREVALENT
+
 We know nonadherence is bad. How prevalent is it? It's pretty
-prevalent. These are two studies
+prevalent. These are two studies of people who just initiated statins
+which show that by 6 months, half of the people have stopped taking
+statins. This upper curve is for secondary prevention (if you've just
+had a heart attack). You're more likely to continue than are the
+people who were just told they have high cholesterol, but it's still
+only 50-60% at 6 to 12 months. So stopping medications is a common
+occurrence.
+
+MEASURES
+
+Now that we know adherence is important, how do we measure it? There
+are several ways, and I already mentioned that Medicare's uses
+prescription fills. Second, there are also pill counts. In a trial,
+each subject might come back at the end of every month with any unused
+pills, to determine how many he or she took. Third, you could ask
+patients to keep a diary or retrospectively think back--globally or
+quantitatively--how often did you miss, or how well did you do?
+Fourth, with some drugs you can order a blood level commercially, or
+you can have a specialized research assay that measures levels. Fifth,
+you can have [**picture] a device that records each time you open a
+bottle. 
+
+Each of these measures has its own pros, cons, and ways they can give
+you inaccurate data. there's none that's considered the gold standard.
+We use prescription fills. 
+
+For one part of my thesis, which I don't have time to discuss fully, I
+reviewed the literature to count how many studies correlate one
+measure to another. I would argue that this figure shows that fills
+are well studied. They have good correlation with other measures. Just
+know that this is not the only way to measure adherence. 
+
+INTERVENTION
+
+Now that we know how to measure adherence, how can we improve it?
+There are many trials of adherence interventions, but many are
+complex. In one study, for example, an intervention pharmacist was
+trained by several other pharmacists, a cardiologist, a geriatrician,
+a behavioral scientist, and a cognitive psychologist, and he
+intervened over a 9 month period, with effects that dissipated in 3
+months (Murray et al., 2007). One systematic review concluded that
+"many of the adherence interventions for long-term medications were
+exceedingly complex and labor-intensive. It is therefore difficult to
+see how they could be carried out in nonresearch settings" (Haynes et
+al., 2008). I think when they say that, they forget about one thing
+that's simple to do, which is reduce copayment. There was a trial of
+that a year and a half ago in the New England Journal, and they found
+it improved adherence by 4-6 percentage points, but there was no
+significant difference in the incidence rate of the primary outcome,
+and small significant differences in the incidence rate of secondary
+outcomes. This was an important trial, and it's worth pointing out
+that you can do that to a lot of people. There's no logistic problem
+with doing that for 10 vs 100 vs 1000. It's not the same as the
+pharmacist contacting a thousand people. The point is, we're trying to
+do this prediction to target those complex interventions to the people
+at highest risk for poor adherence. 
+
+PREVIOUS MODELS
+
+Now that we know why, here's an example of a study that tries to
+predict statin adherence from 19 features of the patient, physician,
+and drug copayment. The full model had an area under the curve of
+0.631. So it didn't work so well. By contrast, a previous study out of
+the lab where I'm working showed good model performance by using past
+adherence to predict future adherence. However, this study didn't
+compare the early detection feature to many other potential features,
+and it also selected a cohort who tended to relatively high mean
+adherence: higher than that what we expect in the general population.
+
+[stop for questions. want this to be maybe 10 min. Was 13 in original.]
 
 ~~~~
 
-shows that people who just initiated statins and how
-many are still adherent as a funciton of time. It shows that by 6
-months, half of the people have stopped taking it. It's a little
-better if it's for secondary prevention (if you've actually had a
-heart attack). Then you're likely to still take it. More likely than
-the people who were just told you have high cholesterol. But it's
-still at 6 to 12 months around 50-60%, which is not something good. So
-it's a common issue.
-
-This shows 5 of the different ways that you can measure adherence. I
-talked a little about Medicare's interest in prescription fills, but
-there are other ways that. For example, in a trial, you might come
-back at the end of every month and have each patient come back and
-have the pills counted, subtract, and see how many the patient took.
-They might have the patient keep a diary or retrospectively think
-back--globally or quantitatively--how often did you miss, or how well
-did you do? Some drugs you can clinically measure a level, or you can
-have a specialized research assay that measures levels. Finally you
-can have [**picture] a device that checks each time you open a bottle.
-Each has its own pros, cons, and ways they can give you inaccurate
-data. Don't have a lot of time, but they point is there's none that's
-considered the gold standard. We use prescription fills. The width
-tells you how many studies I could find that correlate one measure to
-another. I would argue that fills are well studied. They have good
-correlation with this; they've been well studied; CMS is using them
-for practical purposes. Just know that there are several ways.
-
-Finally, know that there are interventions that improve adherence.
-That's not the goal of my thesis. Some interventions are:
-[**examples]. You train a pharmacist. He has a geriatric guy. He has
-some other experts. He becomes the uber pharmacist, and they have this
-multipage protocol whenever he thinks he's not adherent. It says why
-do you think he's not, and it's very tailored. A lot of interventions
-are either complex, human-intensive, or multidisciplinary. You have a
-big team of people, and any one can interact with the patient or plan
-member depending on what you think's going on. There's one review
-article that says "blah blah blah**". I think when they say that, they
-forget about one thing that's simple to do, which is reduce copayment.
-There was a trial of that just 18 months ago in NEJM, and they found
-it moved adherence a little bit, but it didn't do anything significant
-to outcomes. That was the first biggest trial of its kind looking at
-that type of intervention. It's worth pointing out that you can do
-that to a lot of people. There's no logistic problem with doing that
-for 10 vs 100 vs 1000. It's not the same as the pharmacist contacting
-a thousand people. It's money, but it's not more human labor. The
-point is, we're trying to do this prediction to target those complex
-interventions to the poeple at highest risk for poor adherence. It
-could also apply to the copayment interventions, but maybe not in the
-same way.
-
-now that we know why, here's some other guy's study. He studied a
-bunch of things that are in claims. It didn't work so well. Here's
-this other study which Ken did. That had just one simple thing in it,
-where it looks at early monitoring and predicts later adherence. That
-worked well, but [**] didn't compare to anything else, and/or there
-were some funny problems which we can't go into.
-
-[**13 minutes] 8 LPM
-
-stop for questions.
+RESEARCH
 
 Now I'm going to talk about the main part of the research we did.
 [**say that it's about claims]. The dependent variable we defined is
@@ -130,7 +150,7 @@ nonlinear methods but it didn't make a big difference [**omit?]
 
 Some Baseline characteristics of the included population. The median
 age is 58. 58 percent men. Most are on simvastatin. After that is
-atorvastatin and rosuvastatin. The otehr ones are minor. Median
+atorvastatin and rosuvastatin. The other ones are minor. Median
 adherence for 1-90 is kind of good. The 91-365 is not so good. For the
 whole year it's middle of the road. [**say prevalence of <80]. They're
 not on a whole lot--just 1-2 other meds. Long tail. There's only 2%
@@ -152,7 +172,7 @@ he says--really what he says is you can't do it from demographic and
 comorbidity. I would agree with that but I wouldn't say you can't do
 it from claims data. If you use this early monitoring approach. This
 early monitoring period is acting as a proxy for a lot of these
-unmeasured things that we can't get from claims, like whos working two
+unmeasured things that we can't get from claims, like who's working two
 jobs or whose work schedule is weird & they have to get up at
 different hours & no standard routine. The personal characteristics
 are probably a big influence on adherence, is what we think from these
@@ -263,3 +283,9 @@ some other research that people are working on.
 [acknowl Aetna?]
 
 ** there are people for whom we don't know how to score them.
+
+
+
+
+ LocalWords:  Horwitz NEHI operationalized uber multipage think's LPM meds AUC
+ LocalWords:  steiner AUCs tradeoff kleenex WalMart Aetna
