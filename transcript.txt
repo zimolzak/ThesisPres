@@ -104,7 +104,7 @@ where it looks at early monitoring and predicts later adherence. That
 worked well, but [**] didn't compare to anything else, and/or there
 were some funny problems which we can't go into.
 
-[**13 minutes]
+[**13 minutes. 85 wpm]
 
 stop for questions.
 
@@ -128,7 +128,7 @@ We split these 200,000 people into 140,000 training and 70,000 test.
 It's a random split. This is logistic regression. I did try other
 nonlinear methods but it didn't make a big difference [**omit?]
 
-[**17 min]
+[**17 min. 79 wpm.]
 
 Some Baseline characteristics of the included population. The median
 age is 58. 58 percent men. Most are on simvastatin. After that is
@@ -165,7 +165,7 @@ monitor their adherence and see how they're doing. So we did better
 than the other study. [**should I say I'm not trying to make a straw
 man?]
 
-[23 min]
+[23 min. 74 wpm.]
 
 Here are the odds ratios of the multivariable model. So things that
 are worse for your adherence are on the right side of this graph. The
@@ -228,7 +228,7 @@ with a whole bunch of things. Some chronic medications might have
 bearing on others; some might not; or in certain situations. It turns
 into a pretty interesting problem.
 
-[END!!]
+[END!! 73 wpm.]
 
 [32.5 MINUTES]
 
