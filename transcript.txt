@@ -2,143 +2,119 @@ Thanks everyone for coming and for staying for the last presentation
 of the day. Up front I would just like to thank my committee members
 for their helpful comments through the course of putting this
 together. My formal title is "Medication Adherence: how should we
-measure it, and can we detect it early?" I will focus mainly on the
-early detection.
+measure it, and can we detect it early?" 
 
-** going to tell you some nuances that I learned about adherence, and
-   about my research.
+If you'd like a definition, adherence is the extent to which patients
+take medications as prescribed. First I will talk about five simple
+facts about adherence that took me a while to realize, and then I will
+discuss my research about early detection. 
 
-** go thru and find all asterisks.
+THE FIRST FACT IS: ADHERENCE IS GOOD.
 
-DEFINITION
+Poor adherence has been associated with increased mortality. It is
+associated with disease progression in clinical trials, and with
+increased disease-related hospitalizations in real-world populations.
+About half of adverse drug event-related hospitalizations are
+attributable to poor adherence, and those hospitalizations cause
+increased costs. All of this has been described in a number of
+studies. A 2009 study from the NEHI estimated 289 billion annually in
+what they call drug-related morbidity in the US. That covers
+nonadherence, but also problems with prescribing, administration, and
+diagnosis.
 
-But first, some background about medication adherence. I'll use this
-definition: "The extent to which patients take medications as
-prescribed by their health care providers." Why would you be
-interested in such a thing? Who says adherence is good in the first
-place?
+Finally, in 2012, CMS tied adherence to 3 particular classes of
+medications to payment. Payment is actually based on 15-20 different
+quality measures, but three of theme are specifically adherence, and
+they're based on prescription fills. So even if you don't believe
+anything about worse outcomes or costs, if you're a Medicare plan
+manager, believe that adherence is good because it can make you more
+money. This CMS definition informed how we operationalized the
+definition of adherence.
 
-OUTCOMES
+THE SECOND FACT IS: Nonadherence is common.
 
-Well, because first of all, poor adherence has been associated with
-increased mortality (Horwitz). [**mention healthy adherer] Second,
-poor adherence is associated with disease progression in clinical
-trials, and with increased disease-related hospitalizations in
-real-world populations. Between 30 and 70 % of adverse drug
-event-related hospitalizations are attributable to poor adherence.
-Furthermore, literature shows that a lot of the increased costs are
-due to hospitalizations. So we think that you don't take the medicine,
-you get an exacerbation or complication of chronic disease, and you
-have a stay in the hospital. It might not even be a bad exacerbation,
-but that results in increased costs for you and for the system, and in
-indirect costs, such as the things you could be doing while you're not
-in the hospital.
+These are two studies of people who just initiated statins. By 6
+months, half have stopped taking statins. This upper curve is for
+secondary prevention (if you've just had a heart attack). Your
+adherence is better, but not by much.
 
-COST
+THIRD FACT: There is No gold standard measure of adherence.
 
-A 2009 study from the NEHI estimated 289 billion in what they call
-drug-related morbidity in the US. That covers how medications are used
-in the ambulatory setting only and it includes adherence problems, as
-well as problems with prescribing, administration, and diagnosis,
-which result in adverse drug events, interactions, etc.
+I already mentioned prescription fills as a measure of adherence. A
+second measure would be pill counts. In a trial, each subject might
+come periodically with any unused pills, to determine how many he or
+she took. Third, you could ask patients to keep a diary or
+retrospectively think back about how often they took the medication.
+Fourth, sometimes you can measure drug levls in blood commercially, or
+by research assay. Fifth, you can have [**picture] an electronic
+device that records each time you open a pill bottle.
 
-BONUS
+Each of these measures has its own pros and cons. Actually, each is
+giving you different information; none of them is considered the gold
+standard. In our study, we use prescription fills, per the CMS
+definition.
 
-Finally, not too long ago, CMS tied adherence to 3 particular classes
-of medications to payment, and one of those classes is the statins.
-That informed how we operationalized the definition of adherence.
-Payment is actually based on 15-20 different quality measures, but
-three of theme are specifically adherence, and they're based on
-prescription fills. So even if you don't believe anything about worse
-outcomes or costs, if you're a Medicare plan manager, believe that
-you're going to make more money if your members are more adherent.
+In one chapter of my thesis, which I can't discuss fully, I reviewed
+the literature to count how many studies correlate one measure to
+another. The width of each edge shows the value of that count, and
+brighter colors mean stronger correlation. I would argue that this
+figure shows that at least fills are well studied. Just know that they
+are not the only way to measure adherence.
 
-PREVALENT
+FOURTH FACT: adherence Interventions work but can be complex.
 
-We know nonadherence is bad. How prevalent is it? It's pretty
-prevalent. These are two studies of people who just initiated statins
-which show that by 6 months, half of the people have stopped taking
-statins. This upper curve is for secondary prevention (if you've just
-had a heart attack). You're more likely to continue than are the
-people who were just told they have high cholesterol, but it's still
-only 50-60% at 6 to 12 months. So stopping medications is a common
-occurrence.
-
-MEASURES
-
-Now that we know adherence is important, how do we measure it? There
-are several ways, and I already mentioned that Medicare's uses
-prescription fills. Second, there are also pill counts. In a trial,
-each subject might come back at the end of every month with any unused
-pills, to determine how many he or she took. Third, you could ask
-patients to keep a diary or retrospectively think back--globally or
-quantitatively--how often did you miss, or how well did you do?
-Fourth, with some drugs you can order a blood level commercially, or
-you can have a specialized research assay that measures levels. Fifth,
-you can have [**picture] a device that records each time you open a
-bottle. 
-
-Each of these measures has its own pros, cons, and ways they can give
-you inaccurate data. there's none that's considered the gold standard.
-We use prescription fills. 
-
-For one part of my thesis, which I don't have time to discuss fully, I
-reviewed the literature to count how many studies correlate one
-measure to another. I would argue that this figure shows that fills
-are well studied. They have good correlation with other measures. Just
-know that this is not the only way to measure adherence. 
-
-INTERVENTION
-
-Now that we know how to measure adherence, how can we improve it?
 There are many trials of adherence interventions, but many are
-complex. In one study, for example, an intervention pharmacist was
-trained by several other pharmacists, a cardiologist, a geriatrician,
-a behavioral scientist, and a cognitive psychologist, and he
-intervened over a 9 month period, with effects that dissipated in 3
-months (Murray et al., 2007). One systematic review concluded that
-"many of the adherence interventions for long-term medications were
-exceedingly complex and labor-intensive. It is therefore difficult to
-see how they could be carried out in non-research settings" (Haynes et
-al., 2008). I think when they say that, they forget about one thing
-that's simple to do, which is reduce copayment. There was a trial of
-that a year and a half ago in the New England Journal, and they found
-it improved adherence by 4-6 percentage points, but there was no
-significant difference in the incidence rate of the primary outcome,
-and small significant differences in the incidence rate of secondary
-outcomes. This was an important trial, and it's worth pointing out
-that you can do that to a lot of people. There's no logistic problem
-with doing that for 10 vs 100 vs 1000. It's not the same as the
-pharmacist contacting a thousand people. The point is, we're trying to
-do this prediction to target those complex interventions to the people
-at highest risk for poor adherence. 
+complex. In one study, an intervention pharmacist was trained by
+several other pharmacists, a cardiologist, a geriatrician, a
+behavioral scientist, and a cognitive psychologist, and this
+well-trained person then delivered an intervention to patients over 9
+months, using a tailored protocol. After the intervention period, the
+positive effects dissipated in 3 months. One systematic review
+concludes, "many of the adherence interventions for long-term
+medications were exceedingly complex and labor-intensive. It is
+therefore difficult to see how they could be carried out in
+non-research settings."
 
-PREVIOUS MODELS
+Not everything is complex, though, like this recent trial in the New
+England Journal. Here, reduced copayment improved adherence by 4-6
+percentage points. There was no significant difference in the primary
+outcome, and small differences in secondary outcomes. Reducing
+copayment is maybe not so complex as training a small army of
+multidisciplinary teams. So not all interventions are exceedingly
+complex, but many are.
 
-Now that we know why, here's an example of a study that tries to
-predict statin adherence from 19 features of the patient, physician,
-and drug copayment. The full model had an area under the curve of
-0.63. So it didn't work so well. By contrast, a previous study out of
-the lab where I'm working showed good model performance by using past
-adherence to predict future adherence. However, this study didn't
-compare the early detection feature to many other potential features,
-and it also selected a cohort who tended to relatively high mean
-adherence: higher than that what we expect in the general population.
+In any case, this is why we want to predict adherence: to target
+expensive interventions to people at highest risk for poor adherence.
+
+FIFTH FACT: Some predictors of adherence don't work so well.
+
+Here's an example of a study that tries to predict statin adherence
+from 19 features of the patient, physician, and drug payment levels.
+The full model had an area under the curve of 0.63, which means it
+didn't work so well. Several papers have stated that we probably can't
+predict adherence from someone's appearance, problem list, or
+physician or payment characteristics. To quote one review, "adherence
+must be measured, not inferred." However, a previous study out of the
+lab where I'm working showed good model performance by using past
+adherence to predict future adherence. But this paper didn't compare
+the early detection feature to many other potential features, and it
+also selected a cohort who tended to relatively high mean adherence:
+higher than that what we expect in the general population.
+
+This sets up my research, which is meant to build an early detection
+model, but do 2 additional things. First, compare the early detection
+strategy to the traditional strategy. Second, use the CMS definition
+so the model becomes relevant to pay-for-performance.
 
 [stop for questions.]
 [original: 13m, 85wpm]
-[current : 12m]
+[current : 10.4m, 884w]
 [target  : 10m, 850w, 100L]
 
 METHODS
 
-Now I'm going to discuss the original research that resulted in the
-main findings of my thesis. The goal was to build an early detection
-model, but one that compares the early detection strategy to the
-traditional strategy of using patient and drug data at the time of
-prescribing to predict drug adherence. Our data source was
-prescription claims from Aetna, on about 600,000 commercial members,
-who met criteria for hyperlipidemia.
+Our data source was prescription claims from Aetna, on about 600,000
+commercial members, who met criteria for hyperlipidemia.
 
 The major predictor we're interested in is adherence for the first 90
 days. That's going into the model as a continuous variable. Sometimes
@@ -153,7 +129,7 @@ their statins, and whether someone had a heart attack in the 30 days
 before statin initiation.
 
 We worked hard to separate them so we're not using anything beyond the
-initial 90 days as a predictor or exclusion [**maybe reword].
+initial 90 days as a predictor or exclusion.
 
 We excluded anyone who we don't think is really starting the statin
 brand new because of those curves I showed you--because they behave
@@ -165,7 +141,6 @@ scored on the test set.
 
 [original: 17m, 7.7Lpm, 79wpm]
 [current : 16.5m, 1300w]
-[target  : ]
 
 RESULTS
 
@@ -279,7 +254,8 @@ signal that can predict future adherence.
 [current : 2360w, 32.3m]
 [target  : 1460-1600w, 20m]
 
-[bring bottle of water!! poss kleenex.]
+[bring bottle of water!! poss kleenex. Put on the side: my paper, my
+definition. steiner paper.]
 
 
 
