@@ -1,8 +1,8 @@
-Thanks everyone for coming and for staying for the last presentation
-of the day. Up front I would just like to thank my committee members
-for their helpful comments through the course of putting this
-together. My formal title is "Medication Adherence: how should we
-measure it, and can we detect it early?" 
+Thanks everyone for coming and for staying for the last presentation.
+Up front I would like to thank my committee for their helpful comments
+through the course of putting this together. My thesis is called
+"Medication Adherence: how should we measure it, and can we detect it
+early?"
 
 If you'd like a definition, adherence is the extent to which patients
 take medications as prescribed. First I will talk about five simple
@@ -11,21 +11,19 @@ discuss my research about early detection.
 
 THE FIRST FACT IS: ADHERENCE IS GOOD.
 
-Poor adherence has been associated with increased mortality. It is
-associated with disease progression in clinical trials, and with
-increased disease-related hospitalizations in real-world populations.
-About half of adverse drug event-related hospitalizations are
-attributable to poor adherence, and those hospitalizations cause
-increased costs. All of this has been described in a number of
-studies. A 2009 study from the NEHI estimated 289 billion annually in
-what they call drug-related morbidity in the US. That covers
+Poor adherence is associated with increased mortality, with disease
+progression in clinical trials, and with increased disease-related
+hospitalizations in real-world populations. Half of adverse drug
+event-related hospitalizations are attributable to poor adherence, and
+those hospitalizations cause increased costs. This has been described
+in a number of studies. A 2009 study estimated 289 billion dollars
+annually in drug-related morbidity in the US. That covers
 nonadherence, but also problems with prescribing, administration, and
 diagnosis.
 
-Finally, in 2012, CMS tied adherence to 3 particular classes of
-medications to payment. Payment is actually based on 15-20 different
-quality measures, but three of theme are specifically adherence, and
-they're based on prescription fills. So even if you don't believe
+Furthermore, the Centers for Medicare and Medicaid Services tied
+adherence for certain drugs to Medicare bonus payments. Adherence here
+is measured using prescription fills. So even if you don't believe
 anything about worse outcomes or costs, if you're a Medicare plan
 manager, believe that adherence is good because it can make you more
 money. This CMS definition informed how we operationalized the
@@ -111,8 +109,6 @@ so the model becomes relevant to pay-for-performance.
 [original: 13m, 85wpm]
 [current : 10.4m, 884w]
 [target  : 10m, 850w, 100L]
-
-~~~~
 
 METHODS
 
@@ -219,16 +215,15 @@ problem, and there are many important questions that clinicians and
 adherence researchers will be able to answer about it in the near
 future.
 
+[thanks slide - alexa katherine aimee classmates cbmi office chip
+elizabeth]
+
 [original: 32.5m, 7.16Lpm, 73wpm.]
-[current : 29m, 2141w]
+[current : 24m, 1780w]
 [target  : 1460-1600w, 20m]
 
 [bring bottle of water!! poss kleenex. Put on the side: my paper, my
 definition. steiner paper.]
-
-
-
-
 
  LocalWords:  Horwitz NEHI operationalized uber multipage think's LPM meds AUC
  LocalWords:  steiner AUCs tradeoff kleenex WalMart Aetna thru hyperlipidemia
