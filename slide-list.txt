@@ -24,3 +24,6 @@ the 90 day fills. %curves over time
 Sensitivity 69\%, Specificity 78\%. % 2x2
 goal of improving their disease complication rates. %discussion
 % thanks slide
+
+[thanks slide - alexa katherine aimee classmates cbmi office chip
+elizabeth]
