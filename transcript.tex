@@ -20,10 +20,10 @@ Poor adherence is associated with increased mortality and disease
 progression in clinical trials, and with increased disease-related
 hospitalizations in observational studies. Half of adverse drug
 event-related hospitalizations are attributable to poor adherence, and
-these hospitalizations cause increased costs. One study estimates 289
-billion dollars annually in drug-related morbidity in the US. That
-covers nonadherence, but also problems with prescribing,
-administration, and diagnosis.
+these hospitalizations are a major cause of increased costs. One study
+estimates 289 billion dollars annually in drug-related morbidity in
+the US. That includes nonadherence, but also problems with
+prescribing, administration, and diagnosis.
 
 Furthermore, the Centers for Medicare and Medicaid Services has tied
 adherence for certain drugs to Medicare bonus payments. CMS measures
@@ -38,20 +38,21 @@ SECOND FACT: Nonadherence is common.
 These are two studies of people who have been newly prescribed
 statins, which are medications that reduce cholesterol. By 6 months,
 half have stopped taking statins. This upper curve is for those who
-have just had a heart attack. Nonadherence is still common, but less
-so.
+have just recently had a heart attack. Nonadherence is still common,
+but less so.
 
 THIRD FACT: There is No gold standard measure of adherence.
 
-I mentioned that Medicare follows prescription fills. A second measure
-would be pill counts. In a trial, each subject might come in
-periodically with any unused pills, to determine how many he or she
-took. Third, patients could keep a diary or recall how often they took
-their medication. Fourth, you can assay drug levels in blood. Fifth, a
-specialized electronic device can record each time someone opens a
-pill bottle. Each measure has its own pros and cons. Actually, each is
-giving you different information, so none is the gold standard. In our
-study, we use prescription fills, per the CMS definition.
+I mentioned that Medicare uses prescription fills as its measure of
+adherence. A second measure would be pill counts. In a trial, each
+subject might come in periodically with any unused pills, to determine
+how many he or she took. Third, patients could keep a diary or recall
+how often they took their medication. Fourth, you can assay drug
+levels in blood. Fifth, a specialized electronic device can record
+each time someone opens a pill bottle. Each measure has its own pros
+and cons. Actually, each is giving you different information, so none
+is the gold standard. In our study, we use prescription fills, per the
+CMS definition.
 
 In one chapter of my thesis, which I can't discuss in detail, I
 reviewed the literature to count the studies correlating one measure
@@ -64,13 +65,14 @@ FOURTH FACT: adherence Interventions work but can be complex.
 
 In one study, an intervention pharmacist was trained by several other
 pharmacists, a cardiologist, a geriatrician, a behavioral scientist,
-and a cognitive psychologist, and this expertly-trained pharmacist
-then delivered an intervention to patients over 9 months, using a
-tailored protocol. After the intervention period, the positive effects
-dissipated in 3 months. One systematic review concludes, ``many of the
-adherence interventions for long-term medications were exceedingly
-complex and labor-intensive. It is therefore difficult to see how they
-could be carried out in non-research settings.''
+and a cognitive psychologist, and then this expertly-trained
+pharmacist delivered an intervention to patients over 9 months, using
+a tailored protocol. After the intervention period was over, the
+positive effects dissipated in 3 months. One systematic review
+concludes, ``many of the adherence interventions for long-term
+medications were exceedingly complex and labor-intensive. It is
+therefore difficult to see how they could be carried out in
+non-research settings.''
 
 A few interventions are simpler. In this one, reduced copayment
 improved adherence by 4-6 percentage points. There was no significant
@@ -79,8 +81,8 @@ outcomes. Reducing copayment is arguably simple compared to training a
 small army of multidisciplinary teams.
 
 In any case, these interventions illustrate why we want to predict
-adherence. We think some people will do well on their own, without
-intensive interventions.
+adherence. We think the resource-intensive intervention is not for
+everyone---some people will do well on their own.
 
 FIFTH FACT: Some predictors of adherence don't work.
 
@@ -91,10 +93,10 @@ Several papers have stated that we probably can't predict adherence
 from someone's appearance, problem list, or physician or payment
 characteristics. To put it briefly, ``adherence must be measured, not
 inferred.'' However, a study from my lab showed good model performance
-by using past adherence to predict future adherence. But this study
-didn't compare the early detection feature to many other potential
-features, and it also selected a cohort who tended to relatively high
-mean adherence.
+by using past prescription claims to predict future prescription
+claims. But this study didn't compare the early detection feature to
+many other potential features, and it also selected a cohort who
+tended to relatively high mean adherence.
 
 This sets up my research, which is meant to build an early detection
 model, but do 2 additional things. First, compare the early detection
@@ -120,7 +122,7 @@ including number of non-statin pills, copayment, features describing
 how people obtain medications, and whether someone had a heart attack
 in the 30 days before statin initiation.
 
-We defined the dependent variable per CMS. It's binary statin
+We defined the dependent variable per CMS. It is binary statin
 adherence: specifically whether something called Proportion of Days
 Covered is greater or less than 80\%, for statins. It covers days
 91-365, so no information from the dependent variable is in the early
@@ -129,7 +131,8 @@ monitoring period.
 We excluded a few conditions: mainly anyone who we don't think is
 really newly initiating the statins, because we know populations
 behave differently when starting versus maintaining medications. We're
-left with 210,000 people. We trained logistic regression on a random 2/3 training set and applied the model to a 1/3 test set.
+left with 210,000 people. We trained logistic regression on a random
+2/3 training set and applied the model to a 1/3 test set.
 
 Here are simple characteristics of our cohort. They are not on many
 medications, and few have had a recent heart attack. Nonadherence is
@@ -144,13 +147,14 @@ characteristics that we can't get from claims: for example: who
 forgets their meds because they're working two jobs. Personal
 characteristics are probably a big influence on adherence.
 
-Here are multivariable odds ratios. Associates of poor adherence are
-on the right. The strongest predictor is low adherence in the early
-monitoring period, with an odds ratio of 25. The interpretation is: if
-early adherence is 2 standard deviations lower, the odds of poor
-adherence in future are multiplied by 25. This is the intuitive
-direction: lower in past predicts lower in future. The point is not
-these runners up, but how much the early detection feature stands out.
+Here are multivariable odds ratios. Associates of poor adherence fall
+on the right, and associates of good adherence are on the left. The
+strongest predictor is low adherence in the early monitoring period,
+with an odds ratio of 25. The interpretation is: if early adherence is
+2 standard deviations lower, the odds of poor adherence in future are
+multiplied by 25. This is the intuitive direction: lower in past
+predicts lower in future. The point is not these runners up, but how
+much the early detection feature stands out.
 
 Finally, this is the interesting part. The 90 day early detection
 period made clinical sense, but maybe it shouldn't be 90. We plotted
@@ -199,6 +203,7 @@ problem, and there are many important questions that clinicians and
 adherence researchers will be able to answer about it in the near
 future.
 
+%1557 words, about 15 min.
 
 \end{large}
 
