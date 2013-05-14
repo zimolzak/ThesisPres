@@ -108,20 +108,18 @@ Are there any questions before I move on to research?
 All right. Our data source was prescription claims from Aetna, on
 about 600,000 commercial members, who met criteria for hyperlipidemia.
 
-The major predictor we're interested in is statin adherence for the
-first 90 days. That's going into the model as a continuous variable.
-This is what I mean when I say the Early Detection Feature: it's this
-one number that turns out to add a lot to this model. We then
-calculated 15 other predictors including number of non-statin pills,
-copayment amounts, features that describe how people obtain their
-statins, and whether someone had a heart attack in the 30 days before
-statin initiation.
+The major predictor of interest is statin adherence for the first 90
+days. That's going into the model as a continuous variable. When I say
+Early Detection Feature, I mean this one number that turns out to add
+a lot to this model. In addition to it, we calculated 15 traditional
+predictors including number of non-statin pills, copayment amounts,
+features describing how people obtain their statins, and whether
+someone had a heart attack in the 30 days before statin initiation.
 
-We defined the dependent variable the same way CMS does. It's a binary
-condition, specifically whether something called Proportion of Days
-Covered is greater or less than 80%, for statins. The dependent
-variable starts at day 91, so nothing beyond the early monitoring
-period is used as a predictor.
+We defined the dependent variable per CMS. It's a binary condition,
+specifically whether something called Proportion of Days Covered is
+greater or less than 80%, for statins. The dependent variable starts
+at day 91, so no information from the dependent variable is in the early monitoring period.
 
 We excluded anyone who we don't think is really newly initiating the
 statins, because we know populations behave differently when starting
