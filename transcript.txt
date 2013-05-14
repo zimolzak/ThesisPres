@@ -181,42 +181,31 @@ a tradeoff between an early, less accurate prediction; and a later
 more accurate one. You see a similar pattern for those who get the 90
 day fills.
 
-[**table from poster]
+[**table from poster]. At 40 days we see __ sp, __ sn. 
 
 DISCUSSION
 
-Who would use this? One is insurance plan manager. If people fill
-these meds on time, Medicare plan might increase star rating, and then
-get an increased bonus payment. Two is if you're a clinic or an ACO,
-you want your people to have fewer complications. You want to get your
-hands on fill data, so when someone starts on a new med you can watch
-the first refill point, and if they don't within 10 days, you'll want
-to intervene.
+Who could use this model? One person is an insurance plan manager.
+Find people filling a medicine for the first time, monitor their
+refills, intervene early, and improve your pay-for-performance. A
+second example is simply a clinic or an ACO: intervene early and
+improve your disease complication rate.
 
 Now I want to discuss opportunities for future research. At the
-beginning, I showed you that there's other ways to measure adherence
-apart from fills. Prescription claims are not the same as
-quote-unquote true adherence. With a claim, I know they filled 30
-pills, but then I don't know what they're doing day to day, until the
-next claim comes along. There's no gold standard, and incorporating
-one of these other measures would add a lot of information.
+beginning, I showed you other ways to measure adherence apart from
+fills. With fills, I can't see what people are doing day to day. So
+you can see that one of these other measures would add a lot of
+information.
 
-Secondly, it is for the most part arbitrary to define good adherence
-as Proportion of Days Covered equal or greater to 80%. There's
-virtually no research I know of that uses clinical outcomes to
-determine where to draw the line on how much you need to take your
-medicines. Even those secondary analyses of clinical trial data that I
-told you about in the beginning: even they said, let's compare the
-over-80% to the under-80% group. At least CMS has artificially made
-80% worthwhile by tying some reimbursement it. That's what we're using
-in our study, but we haven't yet used any outcome data. There is an
-opportunity to incorporate outcomes, such as hospitalization, or even a
-surrogate like labs.
+Secondly, it's arbitrary to define good adherence as Proportion of
+Days Covered equal or greater than 80%. I haven't seen a paper using
+clinical outcomes to determine where to draw the line on how much you
+need to take your medicines. At least CMS has artificially made 80%
+worthwhile by tying reimbursement to it. There is an opportunity to
+incorporate outcomes, such as hospitalization, or even a surrogate
+like labs.
 
-Third, we're just looking at statins. There is an opportunity to
-expand to other drug classes.
-
-Fourth, we're looking just at statin adherence predicts statin
+Third, we're looking just at statin adherence predicts statin
 adherence. What does blood pressure medicine adherence have to say
 about statin adherence, or vice versa? You can come up with many of
 these possible relationships. Some chronic medications might have
@@ -224,10 +213,11 @@ bearing on others; some might not; or only in certain situations. It
 turns into a pretty interesting problem.
 
 To sum up, demographic and payment characteristics are not good
-predictors of adherence. But those are not the extent of the
-information encompassed by claims data. there is valuable signal to be
-found in claims data, and people's prior adherence history is one such
-signal that can predict future adherence.
+predictors of adherence, but early adherence is one useful predictor
+to be found in claims data. Medication adherence is an important
+problem, and there are many important questions that clinicians and
+adherence researchers will be able to answer about it in the near
+future.
 
 [original: 32.5m, 7.16Lpm, 73wpm.]
 [current : 29m, 2141w]
