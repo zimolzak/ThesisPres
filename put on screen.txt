@@ -11,7 +11,3 @@ pdc first quartile is 0.59, and 3rd quartile is 1.0.
 46% are classed as poor adherers
 24% as good, and 
 30% actually left the insurance plan so we couldn't
-
-runners up bivariate
-(mail order is good, no ACS is bad)
-

@@ -5,13 +5,16 @@ adherence for certain drugs to Medicare bonus payments. %cms
 SECOND FACT: Nonadherence is common. %fact
 but less so. %jack curves
 THIRD FACT: There is No gold standard measure of adherence. %fact
+
 CMS definition. %list of 5 meas
 are not the only way to measure adherence. % 5point graph
 FOURTH FACT: adherence Interventions work but can be complex. %fact
+
 small army of multidisciplinary teams. %nejm
 FIFTH FACT: Some predictors of adherence don't work. %fact
 inferred.'' %chan
 tended to relatively high mean adherence. %magda
+
 600,000 commercial members, who met criteria for hyperlipidemia. %flow1
 2/3 training set and applied the model to a 1/3 test set. %flow2 etc
 common, as seen in other studies. %table1
