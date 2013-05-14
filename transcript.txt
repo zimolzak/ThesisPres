@@ -1,33 +1,31 @@
 Thanks everyone for coming and for staying for the last presentation.
-Up front I would like to thank my committee for their helpful comments
-through the course of putting this together. My thesis is called
-"Medication Adherence: how should we measure it, and can we detect it
-early?"
+I would like to thank my committee for their helpful comments through
+the course of putting this together. My thesis is called "Medication
+Adherence: how should we measure it, and can we detect it early?"
 
 If you'd like a definition, adherence is the extent to which patients
-take medications as prescribed. First I will talk about five simple
-facts about adherence that took me a while to realize, and then I will
-discuss my research about early detection. 
+take medications as prescribed. First I will talk about five
+background facts about adherence, and then I'll discuss my research
+about early detection.
 
 THE FIRST FACT IS: ADHERENCE IS GOOD.
 
-Poor adherence is associated with increased mortality, with disease
+Poor adherence is associated with increased mortality and disease
 progression in clinical trials, and with increased disease-related
-hospitalizations in real-world populations. Half of adverse drug
+hospitalizations in observational studies. Half of adverse drug
 event-related hospitalizations are attributable to poor adherence, and
-those hospitalizations cause increased costs. This has been described
-in a number of studies. A 2009 study estimated 289 billion dollars
-annually in drug-related morbidity in the US. That covers
-nonadherence, but also problems with prescribing, administration, and
-diagnosis.
+those hospitalizations cause increased costs. One study estimates 289
+billion dollars annually in drug-related morbidity in the US. That
+covers nonadherence, but also problems with prescribing,
+administration, and diagnosis.
 
-Furthermore, the Centers for Medicare and Medicaid Services tied
-adherence for certain drugs to Medicare bonus payments. Adherence here
-is measured using prescription fills. So even if you don't believe
-anything about worse outcomes or costs, if you're a Medicare plan
-manager, believe that adherence is good because it can make you more
-money. This CMS definition informed how we operationalized the
-definition of adherence.
+Secondly, the Centers for Medicare and Medicaid Services has tied
+adherence for certain drugs to Medicare bonus payments. CMS measures
+adherence using prescription fills. Even if you don't believe the
+worse outcomes or costs, if you're a Medicare plan manager, believe
+that adherence is good because it can make you more money. This CMS
+definition informed how we operationalized the definition of
+adherence.
 
 THE SECOND FACT IS: Nonadherence is common.
 
@@ -39,19 +37,16 @@ better, but not by much.
 
 THIRD FACT: There is No gold standard measure of adherence.
 
-I already mentioned prescription fills as a measure of adherence. A
-second measure would be pill counts. In a trial, each subject might
-come periodically with any unused pills, to determine how many he or
-she took. Third, you could ask patients to keep a diary or
-retrospectively think back about how often they took the medication.
-Fourth, sometimes you can measure drug levls in blood commercially, or
-by research assay. Fifth, you can have an electronic
-device that records each time you open a pill bottle.
-
-Each of these measures has its own pros and cons. Actually, each is
-giving you different information; none of them is considered the gold
-standard. In our study, we use prescription fills, per the CMS
-definition.
+I already mentioned that Medicare uses prescription fills. A second
+measure would be pill counts. In a trial, each subject might come in
+periodically with any unused pills, to determine how many he or she
+took. Third, you could ask patients to keep a diary or retrospectively
+report about how often they took the medication. Fourth, you can
+measure drug levels in blood. Fifth, a specialized electronic device
+can record each time you open a pill bottle. Each of these measures
+has its own pros and cons. Actually, each is giving you different
+information, so none is considered the gold standard. In our study, we
+use prescription fills, per the CMS definition.
 
 In one chapter of my thesis, which I can't discuss fully, I reviewed
 the literature to count how many studies correlate one measure to
@@ -62,50 +57,53 @@ are not the only way to measure adherence.
 
 FOURTH FACT: adherence Interventions work but can be complex.
 
-There are many trials of adherence interventions, but many are
-complex. In one study, an intervention pharmacist was trained by
+In one study, for example, an intervention pharmacist was trained by
 several other pharmacists, a cardiologist, a geriatrician, a
 behavioral scientist, and a cognitive psychologist, and this
-well-trained person then delivered an intervention to patients over 9
-months, using a tailored protocol. After the intervention period, the
-positive effects dissipated in 3 months. One systematic review
-concludes, "many of the adherence interventions for long-term
+expertly-trained pharmacist then delivered an intervention to patients
+over 9 months, using a tailored protocol. After the intervention
+period, the positive effects dissipated in 3 months. One systematic
+review concludes, "many of the adherence interventions for long-term
 medications were exceedingly complex and labor-intensive. It is
 therefore difficult to see how they could be carried out in
 non-research settings."
 
-Not everything is complex, though, like this recent trial in the New
-England Journal. Here, reduced copayment improved adherence by 4-6
-percentage points. There was no significant difference in the primary
-outcome, and small differences in secondary outcomes. Reducing
-copayment is maybe not so complex as training a small army of
-multidisciplinary teams. So not all interventions are exceedingly
-complex, but many are.
+A minority of intervention studies are simple. In this one, reduced
+copayment improved adherence by 4-6 percentage points. There was no
+significant difference in the primary outcome, but small differences
+in secondary outcomes. Reducing copayment is arguably simple compared
+to training a small army of multidisciplinary teams.
 
-In any case, this is why we want to predict adherence: to target
-expensive interventions to people at highest risk for poor adherence.
+In any case, these interventions illustrate why we want to predict
+adherence. We think we can deliver interventions only to some: who
+should be at highest risk.
 
 FIFTH FACT: Some predictors of adherence don't work so well.
 
-Here's an example of a study that tries to predict statin adherence
-from 19 features of the patient, physician, and drug payment levels.
-The full model had an area under the curve of 0.63, which means it
-didn't work so well. Several papers have stated that we probably can't
-predict adherence from someone's appearance, problem list, or
-physician or payment characteristics. To quote one review, "adherence
-must be measured, not inferred." However, a previous study out of the
-lab where I'm working showed good model performance by using past
-adherence to predict future adherence. But this paper didn't compare
-the early detection feature to many other potential features, and it
-also selected a cohort who tended to relatively high mean adherence:
-higher than that what we expect in the general population.
+This study's goal was to predict statin adherence from 19 features of
+the patient, physician, and payment amounts. The full model had an
+area under the curve of 0.63, which means it didn't work so well.
+Several papers have stated that we probably can't predict adherence
+from someone's appearance, problem list, or physician or payment
+characteristics. To quote one review, "adherence must be measured, not
+inferred." However, a previous study out of the lab where I'm working
+showed good model performance by using past adherence to predict
+future adherence. But this paper didn't compare the early detection
+feature to many other potential features, and it also selected a
+cohort who tended to relatively high mean adherence.
 
 This sets up my research, which is meant to build an early detection
 model, but do 2 additional things. First, compare the early detection
-strategy to the traditional strategy. Second, use the CMS definition
-so the model becomes relevant to pay-for-performance.
+feature to traditional features. Second, use the CMS definition so the
+model becomes relevant to pay-for-performance.
 
 Are there any questions before I move on to research?
+
+
+
+
+
+
 
 All right. Our data source was prescription claims from Aetna, on
 about 600,000 commercial members, who met criteria for hyperlipidemia.
@@ -138,11 +136,11 @@ Nonadherence is common, similar to levels seen in other studies.
 
 This is the ROC curve for our multivariable model. Area under the
 curve is 0.8, so we think this is a good model. Remember the
-commentary about the study with 0.63 AUC. You can't make accurate
-predictions from demographic and comorbidity data. I would still agree
-with that. But if you use this early monitoring period, it probably
+commentary about the study with 0.63 AUC. The editorial said you can't
+make accurate predictions from demographic and comorbidity data. I
+would still agree with that. But our early monitoring period probably
 acts as a proxy for personal characteristics that we can't get from
-claims, like who forgets their meds because they're working two jobs.
+claims: for example: who forgets their meds because they're working two jobs.
 Personal characteristics are probably a big influence on adherence.
 
 Here are the odds ratios. Associates of poor adherence are on the
@@ -162,11 +160,12 @@ fills of medications, and the bottom curve is a small cohort who get
 monitoring data, you get a weak model, with an AUC around 0.6, not far
 from the study I showed you. If you wait for 31 days of data, you get
 a a better model, and if you wait til 40 you get even better. There is
-a tradeoff between an early, less accurate prediction; and a later
+a trade-off between an early, less accurate prediction; and a later
 more accurate one. You see a similar pattern for those who get the 90
 day fills.
 
-[**table from poster]. At 40 days we see __ sp, __ sn. 
+[**table from poster]. At 40 days we see __ specificity, __
+sensitivity.
 
 Who could use this model? One person is an insurance plan manager.
 Find people filling a medicine for the first time, monitor their
