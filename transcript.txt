@@ -45,7 +45,7 @@ come periodically with any unused pills, to determine how many he or
 she took. Third, you could ask patients to keep a diary or
 retrospectively think back about how often they took the medication.
 Fourth, sometimes you can measure drug levls in blood commercially, or
-by research assay. Fifth, you can have [**picture] an electronic
+by research assay. Fifth, you can have an electronic
 device that records each time you open a pill bottle.
 
 Each of these measures has its own pros and cons. Actually, each is
@@ -105,15 +105,10 @@ model, but do 2 additional things. First, compare the early detection
 strategy to the traditional strategy. Second, use the CMS definition
 so the model becomes relevant to pay-for-performance.
 
-[stop for questions.]
-[original: 13m, 85wpm]
-[current : 10.4m, 884w]
-[target  : 10m, 850w, 100L]
+Are there any questions before I move on to research?
 
-METHODS
-
-Our data source was prescription claims from Aetna, on about 600,000
-commercial members, who met criteria for hyperlipidemia.
+All right. Our data source was prescription claims from Aetna, on
+about 600,000 commercial members, who met criteria for hyperlipidemia.
 
 The major predictor we're interested in is statin adherence for the
 first 90 days. That's going into the model as a continuous variable.
@@ -137,10 +132,6 @@ exclusion criteria. We're left with 210,000 people. We randomly chose
 a 2/3 training and a 1/3 test set. We trained logistic regression and
 applied the model to the test set.
 
-[original: 17m, 7.7Lpm, 79wpm]
-
-RESULTS
-
 In our cohort, here are some simple characteristics. They are not on
 very many other medications, and few have had a recent heart attack.
 Nonadherence is common, similar to levels seen in other studies.
@@ -153,8 +144,6 @@ with that. But if you use this early monitoring period, it probably
 acts as a proxy for personal characteristics that we can't get from
 claims, like who forgets their meds because they're working two jobs.
 Personal characteristics are probably a big influence on adherence.
-
-[original: 23m, 7.3Lpm, 74wpm]
 
 Here are the odds ratios. Associates of poor adherence are on the
 right. The strongest predictor is low adherence in the early
@@ -178,8 +167,6 @@ more accurate one. You see a similar pattern for those who get the 90
 day fills.
 
 [**table from poster]. At 40 days we see __ sp, __ sn. 
-
-DISCUSSION
 
 Who could use this model? One person is an insurance plan manager.
 Find people filling a medicine for the first time, monitor their
@@ -214,17 +201,3 @@ to be found in claims data. Medication adherence is an important
 problem, and there are many important questions that clinicians and
 adherence researchers will be able to answer about it in the near
 future.
-
-[thanks slide - alexa katherine aimee classmates cbmi office chip
-elizabeth]
-
-[original: 32.5m, 7.16Lpm, 73wpm.]
-[current : 24m, 1780w]
-[target  : 1460-1600w, 20m]
-
-[bring bottle of water!! poss kleenex. Put on the side: my paper, my
-definition. steiner paper.]
-
- LocalWords:  Horwitz NEHI operationalized uber multipage think's LPM meds AUC
- LocalWords:  steiner AUCs tradeoff kleenex WalMart Aetna thru hyperlipidemia
- LocalWords:  Lpm adherers
