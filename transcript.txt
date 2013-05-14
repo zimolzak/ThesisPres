@@ -33,10 +33,11 @@ definition of adherence.
 
 THE SECOND FACT IS: Nonadherence is common.
 
-These are two studies of people who just initiated statins. By 6
-months, half have stopped taking statins. This upper curve is for
-secondary prevention (if you've just had a heart attack). Your
-adherence is better, but not by much.
+These are two studies of people who have been newly prescribed
+statins, which are medications that reduce cholesterol. By 6 months,
+half have stopped taking statins. This upper curve is for secondary
+prevention (if you've just had a heart attack). Your adherence is
+better, but not by much.
 
 THIRD FACT: There is No gold standard measure of adherence.
 
@@ -111,96 +112,74 @@ so the model becomes relevant to pay-for-performance.
 [current : 10.4m, 884w]
 [target  : 10m, 850w, 100L]
 
+~~~~
+
 METHODS
 
 Our data source was prescription claims from Aetna, on about 600,000
 commercial members, who met criteria for hyperlipidemia.
 
-The major predictor we're interested in is adherence for the first 90
-days. That's going into the model as a continuous variable. Sometimes
-I'll call them predictors or features. We defined the dependent
-variable the same way CMS did. CMS defines this as a binary condition,
-specifically whether something called the Proportion of Days Covered
-is greater or less than 80%.
+The major predictor we're interested in is statin adherence for the
+first 90 days. That's going into the model as a continuous variable.
+This is what I mean when I say the Early Detection Feature: it's this
+one number that turns out to add a lot to this model. We then
+calculated 15 other predictors including number of non-statin pills,
+copayment amounts, features that describe how people obtain their
+statins, and whether someone had a heart attack in the 30 days before
+statin initiation.
 
-We then calculated 15 other features including number of non-statin
-pills, copayment amounts, features that describe how people obtain
-their statins, and whether someone had a heart attack in the 30 days
-before statin initiation.
+We defined the dependent variable the same way CMS does. It's a binary
+condition, specifically whether something called Proportion of Days
+Covered is greater or less than 80%, for statins. The dependent
+variable starts at day 91, so nothing beyond the early monitoring
+period is used as a predictor.
 
-We worked hard to separate them so we're not using anything beyond the
-initial 90 days as a predictor or exclusion.
-
-We excluded anyone who we don't think is really starting the statin
-brand new because of those curves I showed you--because they behave
-differently--at the beginning there's a big drop. Then there are some
-less common exclusion criteria. We're left with 210,000 people, who we
-split randomly into a 140,000 person training set and a 70,000 person
-test set. We trained logistic regression on the training set and
-scored on the test set.
+We excluded anyone who we don't think is really newly initiating the
+statins, because we know populations behave differently when starting
+versus maintaining medications. Then there are some less common
+exclusion criteria. We're left with 210,000 people. We randomly chose
+a 2/3 training and a 1/3 test set. We trained logistic regression and
+applied the model to the test set.
 
 [original: 17m, 7.7Lpm, 79wpm]
-[current : 16.5m, 1300w]
 
 RESULTS
 
-In our included cohort, the median age is 54. The cohort is 45% women.
-58% are on simvastatin, followed by rosuvastatin and atorvastatin, and
-only 2% is on something else. For the early monitoring period, first
-quartile is 0.59, and 3rd quartile is 1.0. For the dependent variable,
-46% are classed as poor adherers, 24% as good, and 30% actually left
-the insurance plan so we couldn't determine poor or good. They're on a
-median of 0.4 pills per day, 3rd quartile 1.8 pills per day. There's
-only 2% with MI in the last 30 days.
+In our cohort, here are some simple characteristics. They are not on
+very many other medications, and few have had a recent heart attack.
+Nonadherence is common, similar to levels seen in other studies.
 
-When we looked at bivariate pairwise associations, the big one that
-stands out is the early monitoring period. The odds ratio is 19.7. The
-next biggest ones after that are between 2 and 3 (mail order is good,
-no ACS is bad). The interpretation is if you're the people
-with early adherence down by 0.5, then your odds of low adherence in
-the later time frame is multiplied by 20. So it's in the intuitive
-direction: you do worse at the beginning, and you do worse at the end.
-
-Now for the multivariable model. This is the ROC curve, and the area
-under the curve is 0.8, so that tells us we have a good model. When
-the study was published with the 0.63 AUC, an accompanying editorial
-said that you can't make any accurate predictions from demographic and
-comorbidity data, and there's probably no signal in them. I would
-agree with that. But if you use this early monitoring period, it is
-acting as a proxy for a lot of these personal characteristics that we
-can't get from claims, like who's working two jobs or whose work
-schedule is weird & they have to get up at different hours & no
-standard routine. From smaller studies, we think these personal
-characteristics are a big influence on adherence.
+This is the ROC curve for our multivariable model. Area under the
+curve is 0.8, so we think this is a good model. Remember the
+commentary about the study with 0.63 AUC. You can't make accurate
+predictions from demographic and comorbidity data. I would still agree
+with that. But if you use this early monitoring period, it probably
+acts as a proxy for personal characteristics that we can't get from
+claims, like who forgets their meds because they're working two jobs.
+Personal characteristics are probably a big influence on adherence.
 
 [original: 23m, 7.3Lpm, 74wpm]
-[current : 22m, 1623w]
 
-Here are the odds ratios of the multivariable model. Things that are
-worse for your adherence are on the right side of this graph. The
-worst thing is if you have low adherence in the early monitoring
-period. This is a log scale. This odds ratio is 25. The next worst one
-is 2.4. The point is not so much the other covariates, but how far the
-early detection feature stands out. One review article makes the
-argument that an odds ratio of 2 is still not very good for predicting
-adherence.
+Here are the odds ratios. Associates of poor adherence are on the
+right. The strongest predictor is low adherence in the early
+monitoring period, with an odds ratio of 25. The interpretation is: if
+your early adherence is 2 standard deviations lower, then your odds of
+low adherence in future are multiplied by 20. This is the intuitive
+direction: lower in past predicts lower in future. The point is these
+runners up, but how far the early detection feature stands out.
 
-Finally, this is the really interesting part. The 90 day early
-detection period made clinical sense, but maybe we can make it
-shorter, or maybe we ought to make it longer. So, we plotted model
-performance on the Y axis versus length of the early monitoring period
-on the X axis. The top curve is the cohort who get 30 day fills of
-medications. You'll see that if you have between 0 to 30 days of
+Finally, this is the interesting part. The 90 day early detection
+period made clinical sense, but maybe it shouldn't be 90. We plotted
+model performance on the Y axis versus length of the early monitoring
+period on the X axis. The top curve is the major cohort who get 30 day
+fills of medications, and the bottom curve is a small cohort who get
+90 day fills. For the top curve, if you have 0 to 30 days of
 monitoring data, you get a weak model, with an AUC around 0.6, not far
-from the study I showed you. If you wait to get 31 days of data, you
-get a big increase, and if you wait til 40 you get a further increase.
-You then start to level off and increase more slowly, for as long as
-you're willing to wait. The point is a tradeoff between two qualities.
-You can have an early but less accurate prediction, or you can have a
-later but more accurate one. You see a similar pattern for those who
-get the 90 day fills. They get a big increase in model performance
-between 90 and 100 days. In summary, the timing of the first refill
-plays a big part in the discriminatory power of this model.
+from the study I showed you. If you wait for 31 days of data, you get
+a a better model, and if you wait til 40 you get even better. There is
+a tradeoff between an early, less accurate prediction; and a later
+more accurate one. You see a similar pattern for those who get the 90
+day fills.
 
 [**table from poster]
 
@@ -251,7 +230,7 @@ found in claims data, and people's prior adherence history is one such
 signal that can predict future adherence.
 
 [original: 32.5m, 7.16Lpm, 73wpm.]
-[current : 2360w, 32.3m]
+[current : 29m, 2141w]
 [target  : 1460-1600w, 20m]
 
 [bring bottle of water!! poss kleenex. Put on the side: my paper, my

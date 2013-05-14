@@ -1,0 +1,17 @@
+median age is 54. 
+The cohort is 45% women.
+58% are on simvastatin, followed by 
+rosuvastatin and 
+atorvastatin, and
+only 2% is on something else.
+median of 0.4 pills per day, 3rd quartile 1.8 pills per day.
+There's only 2% with MI in the last 30 days.
+
+pdc first quartile is 0.59, and 3rd quartile is 1.0. 
+46% are classed as poor adherers
+24% as good, and 
+30% actually left the insurance plan so we couldn't
+
+runners up bivariate
+(mail order is good, no ACS is bad)
+
